@@ -1,0 +1,13 @@
+{
+  "name": "virtual-list-root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "virtual-list"
+  ],
+  "scripts": {
+    "start": "cd virtual-list && npm start",
+    "build": "cd virtual-list && npm run build",
+    "test": "cd virtual-list && npm test"
+  }
+} 
